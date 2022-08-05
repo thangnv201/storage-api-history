@@ -1,0 +1,13 @@
+modules:
+  jira:globalPage:
+    - key: storage-api-history-hello-world
+      function: main
+      title: storage-api-history
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/9932c855-4f4a-429e-8f22-f94d3fdcb1ac
+permissions:
+  scopes:
+    - storage:app
